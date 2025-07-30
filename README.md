@@ -4,7 +4,7 @@
 
 This section includes the originally submitted Midterm Proposal outline, followed by a description of the changes made after its submission and in response to peer feedback.
 
-**Project Proposal:** [`Kasra-Korminejad-project-proposal.pdf`]("Kasra-Korminejad-project-proposal.pdf)
+**Project Proposal:** [`Kasra-Korminejad-project-proposal.pdf`](Kasra-Korminejad-project-proposal.pdf)
 
 **Description of Changes:**
 
