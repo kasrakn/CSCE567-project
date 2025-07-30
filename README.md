@@ -84,3 +84,29 @@ While the current project provides a robust snapshot of AI adoption, several fut
 * **Feature-Based Comparative Visualizations:** To better understand *why* certain tools are adopted more than others, the dataset could be augmented with specific attributes for each AI tool, such as its primary function (e.g., 'Text Generation', 'Image Creation', 'Code Assistant') and a user-friendliness score. This would allow for more sophisticated visualizations:
   * A **scatter plot** could be created to map `Adoption Rate` against a `User-Friendliness Score`, with points colored by the tool's primary function. This could reveal key insights, such as whether ease-of-use is a greater driver of adoption for image-generation tools compared to coding assistants. 
     * A **parallel coordinates plot** could also be used to compare multiple tools across several features at once (Adoption Rate, Daily Users, User-Friendliness), helping to identify the distinct profiles of the most successful AI applications.
+
+
+## How to Run the Project
+The project is designed to be run in a Jupyter Notebook environment. Here are the steps to get started:
+
+1. **Clone the Repository:**
+   Clone the repository to your local machine using:
+   ```bash
+   git clone https://github.com/kasrakn/CSCE567-project.git
+   ```
+
+2. **Navigate to the Project Directory:**
+   Change into the project directory:
+   ```bash
+   cd CSCE567-project
+   ```
+
+3. **Install Required Libraries:**
+   Ensure you have the necessary Python libraries installed. You can install them using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Open the Jupyter Notebook:**
+   - Launch Jupyter Notebook `project.ipynb`:
+   - Run all the cells in the notebook sequentially to generate the visualizations.
