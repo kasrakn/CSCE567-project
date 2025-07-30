@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasra's Final Project</title>
+</head>
+<style>
+    h1, h2, h3, p {
+        text-align: center;
+    }
+    hr {
+        width: 70%;
+        margin: auto;
+    }
+</style>
+<body>
+    <h1 style="text-align: center;">CSCE567-Visualization Tools - Final Project</h1>
+    <h3 style="text-align: center;">Kasra Korminejad</h3>
+    <hr style="width: 70%;">
+    <br><br>
+
+    <h2>Project Overview</h2>
+    <div style="text-align: center;">
+        <p>This project visualizes global AI tool adoption trends using various datasets. It includes interactive maps, bar charts, and line graphs to illustrate adoption rates across different demographics, industries, and countries.</p>
+        <span><b>Github Repository: </b><a href="http://github.com/kasrakn/CSCE567-project">CSCE567-project</a></span>
+        <br>
+        <span><b>Dataset: </b></span><a href="https://www.kaggle.com/datasets/tfisthis/global-ai-tool-adoption-across-industries">Global AI Tool Adoption Across Industries</a></div>
+    </div>
+    <br>
+    <hr>
+
+    <h2>Visualization 1: Global AI Tool Adoption Heatmap by Country & Year</h2>
+    <p>This choropleth map visualizes the average AI tool adoption rate for each country for the year 2024. The color of each country represents its adoption rate, allowing for a quick comparison of AI integration across different regions.</p>
+    <div style="align-items: center; text-align: center;">
+        <h3>2023</h3>
+        <iframe src="./visualizations/ai_adoption_map_2023.html" width="1200" height="800"></iframe>
+        <br>
+        <h3>2024</h3>
+        <iframe src="./visualizations/ai_adoption_map_2024.html" width="1200" height="800"></iframe>
+    </div>
+
+    <br>
+    <hr>
+
+    <h2>Visualization 2: AI Tool Adoption by Industry</h2>
+    <p>This grouped bar chart illustrates the average adoption rate of various AI tools within each industry. This view helps compare how different tools perform across sectors and highlights which industries are leading in AI adoption.</p>
+    <div style="align-items: center; text-align: center;">
+        <img src="./visualizations/ai_tool_adoption_by_industry.png" alt="AI Tool Adoption by Industry" width="1200">
+    </div>
+
+    <br>
+    <hr>
+
+    <h2>Visualization 3: AI Tool Adoption Rate by Age Group</h2>
+    <p>This simple bar chart shows the average adoption rate across different age groups. It effectively highlights which demographics are most actively adopting AI tools.</p>
+    <div style="align-items: center; text-align: center;">
+        <img src="./visualizations/ai_tool_adoption_by_age_group.png" alt="AI Tool Adoption by Age Group" width="1200">
+    </div>
+
+    <br>
+    <hr>   
+
+    <h2>Visualization 4: AI Tool Adoption by Age Group and Country</h2>
+    <p>This grouped bar chart displays the average adoption rate by age, further segmented by country. The visualization reveals geographical differences in how various age groups adopt AI technology.</p>
+    <div style="align-items: center; text-align: center;">
+        <img src="./visualizations/ai_tool_adoption_by_age_group_country.png" alt="AI Tool Adoption by Age Group and Country" width="1200">
+    </div>
+
+    <br>
+    <hr>
+
+    <h2>Visualization 5: AI Tool Adoption by Age Group and Company Size</h2>
+    <p>This grouped bar chart shows the average adoption rate by age, broken down by company size (Startup, SME, Enterprise). It shows how AI adoption behavior varies by user age within different organizational structures.</p>
+    <div style="align-items: center; text-align: center;">
+        <img src="./visualizations/ai_tool_adoption_by_age_group_company_size.png" alt="AI Tool Adoption by Age Group and Company Size" width="1200">
+    </div>
+
+    <br>
+    <hr>
+    <h2>Visualization 6: AI Tool Distribution by Company Size</h2>
+    <p>This 100% stacked bar chart reveals the market share of different AI tools within each company size. Each bar adds up to 100%, and the segments represent the proportional preference for each AI tool, showing, for instance, if startups prefer different tools than enterprises.</p>
+    <div style="align-items: center; text-align: center;">
+        <img src="./visualizations/ai_tool_distribution_by_company_size.png" alt="AI Tool Distribution by Company Size" width="1200">
+    </div>
+    <br>
+    <hr>
+
+    <h2>Visualization 7: Daily Active Users (DAU) by Industry and AI Tool</h2>
+    <p>This treemap provides a hierarchical breakdown of daily active users. The largest rectangles represent the industries with the most DAU, and each is subdivided to show the DAU for specific AI tools within that industry. The size of each rectangle is proportional to its DAU count.</p>
+    <div style="align-items: center; text-align: center;">
+        <iframe src="./visualizations/ai_tool_distribution_by_industry.html" width="1200" height="800"></iframe>
+    </div>
+</body>
+</html>
