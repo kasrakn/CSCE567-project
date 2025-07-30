@@ -75,32 +75,12 @@ Several design choices were made to ensure the visualizations told a clear and c
 
 ### **5. Discussion of Future Work**
 
-This project could be extended to provide even deeper insights and a more engaging experience.
+While the current project provides a robust snapshot of AI adoption, several future enhancements could provide deeper, more dynamic insights, focusing primarily on expanding the visualization possibilities. The following ideas describe how additional data could be collected and used to create new visualizations that further engage the intended audience.
 
-* **Sentiment Analysis:** A significant opportunity lies in analyzing the `user_feedback` column. By applying Natural Language Processing (NLP), we could perform sentiment analysis to generate a quantitative "satisfaction score" for each tool. This could fuel a new visualization, such as a scatter plot comparing adoption rates against user satisfaction, to identify tools that are both popular and well-regarded.
-* **Incorporating AI Functionality:** **Following a suggestion from a peer reviewer, a future extension could involve directly integrating AI into the project's presentation.** For instance, one could use a text-to-speech API, possibly from a platform like Microsoft Azure, to create an audio narration that guides the user through the visualizations. This would make the project more accessible and move it from simply visualizing AI data to actively using AI technology to enhance the user experience.
+* **Longitudinal Trend Analysis and Animated Visualizations:** The current dataset spans two years, which is excellent for a snapshot comparison but limits true trend analysis. A valuable next step would be to collect similar data for subsequent years (e.g., 2025, 2026). This additional data would enable the creation of new visualizations:
+    *A **series of line charts** could track the adoption rate growth over time for specific countries or industries, revealing who the early adopters are and which markets are reaching maturity.
+    *An **animated choropleth map** could be developed to show the geographic spread and intensification of AI tool adoption year-over-year, providing a more dynamic and compelling story of global integration than the current static map.
 
-## How to Run the Project
-The project is designed to be run in a Jupyter Notebook environment. Here are the steps to get started:
-
-1. **Clone the Repository:**
-   Clone the repository to your local machine using:
-   ```bash
-   git clone https://github.com/kasrakn/CSCE567-project.git
-   ```
-
-2. **Navigate to the Project Directory:**
-   Change into the project directory:
-   ```bash
-   cd CSCE567-project
-   ```
-
-3. **Install Required Libraries:**
-   Ensure you have the necessary Python libraries installed. You can install them using pip:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Open the Jupyter Notebook:**
-   - Launch Jupyter Notebook `project.ipynb`:
-   - Run all the cells in the notebook sequentially to generate the visualizations.
+* **Feature-Based Comparative Visualizations:** To better understand *why* certain tools are adopted more than others, the dataset could be augmented with specific attributes for each AI tool, such as its primary function (e.g., 'Text Generation', 'Image Creation', 'Code Assistant') and a user-friendliness score. This would allow for more sophisticated visualizations:
+  * A **scatter plot** could be created to map `Adoption Rate` against a `User-Friendliness Score`, with points colored by the tool's primary function. This could reveal key insights, such as whether ease-of-use is a greater driver of adoption for image-generation tools compared to coding assistants. 
+    * A **parallel coordinates plot** could also be used to compare multiple tools across several features at once (Adoption Rate, Daily Users, User-Friendliness), helping to identify the distinct profiles of the most successful AI applications.
