@@ -1,4 +1,6 @@
-# Final Project Writeup: Visualizing Global AI Tool Adoption
+# Final Project Writeup: Visualizing Global AI Tool Adoption]
+
+[Visit the project page](https://kasrakn.github.io/CSCE567-project/)
 
 ### **1. Proposal Outline Update**
 
