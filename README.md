@@ -1,8 +1,8 @@
 # Final Project Writeup: Visualizing Global AI Tool Adoption
 
-### **1. Midterm Proposal Outline Update**
+### **1. Proposal Outline Update**
 
-This section includes the originally submitted Midterm Proposal outline, followed by a description of the changes made after its submission and in response to peer feedback.
+This section includes the originally submitted Proposal outline, followed by a description of the changes made after its submission and in response to peer feedback.
 
 **Project Proposal:** [`Kasra-Korminejad-project-proposal.pdf`](Kasra-Korminejad-project-proposal.pdf)
 
